@@ -1,4 +1,5 @@
-# IBM Instana Observability 
+# IBM Instana Observability ハンズオン QotD(Quote of the Day)版
+## IBM Instana Observability 
 
 IBM Instana Observability は、アプリケーションの可観測性を提供する IBM の 新しい アプリケーション・パフォーマンス管理基盤です。
 「監視 Monitoring」 が 受け身/消極的なニュアンスで語られるに比し、「可観測性 Observability」 は、パフォーマンスとサービスの改善を行うために、システムの内部の状態を、外部から取得できるデータによって対象を積極的に理解していく言葉です。
