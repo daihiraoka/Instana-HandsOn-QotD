@@ -46,8 +46,8 @@ Instanaは１つのエージェントで、これら３つのシグナルを自�
 
 |章|ハンズオンリンク|備考
 --|--|--
-|1|[Infrastructure & Platform](infrastructure%26platform.md)|基盤およびKubernetes/CloudFoundryなどプラットフォーム|
-|2|[Applications](Applications.md)|マイクロサービス・アプリケーション稼働状況の可視化|
-|3|[WebSites & MobileApps](WebSites%26MobileApps.md)|エンドユーザー・挙動の理解|
-|4|[Events](Events.md)|AIおよび機械学習により通知されたイベントからの問題判別|
+|1|[インフラストラクチャー & プラットフォーム](infrastructure%26platform.md)|基盤およびKubernetes/CloudFoundryなどプラットフォーム|
+|2|[アプリケーション](Applications.md)|マイクロサービス・アプリケーション稼働状況の可視化|
+|3|[Web サイトおよびモバイル・アプリケーション](WebSites%26MobileApps.md)|エンドユーザー・挙動の理解|
+|4|[イベント](Events.md)|AIおよび機械学習により通知されたイベントからの問題判別|
 
