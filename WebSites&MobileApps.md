@@ -26,11 +26,9 @@ WebSitesモニタリングで送信される情報については、[こちら](
 1. **サマリー**のページに戻ります。
 アプリケーションのページと同様、エラーにフォーカスを当てて、詳細を確認します。
 ![image](images/website-006.png)
-
 1. ここでは、**Uncaught ReferenceError: Darkmode is not defined**のエラーが発生しています。詳細を確認するために**Uncaught ReferenceError: Darkmode is not defined**を選択します。  
 タイミングによって起きているエラーは異なりますので、環境に応じて 一番多いエラーを選択して開いて下さい。
 ![image](images/website-007.png)
-
 1. ここでも、**Uncaught ReferenceError: Darkmode is not defined**のエラーのみが出力されている状況です。  
 一番上のエラー要求をクリックして、要求の中身をみていきます。
 ![image](images/website-008.png)
@@ -38,7 +36,7 @@ WebSitesモニタリングで送信される情報については、[こちら](
 ![image](images/website-009.png)
 1.  ここではJavaScriptのどの行で どんなエラーが返されているかが分かります。今回はaddDarkmodeWidgetが定義されていないとQOTDアプリケーションURLの18行目に問題があるようです。
 ![image](images/website-010.png)
-QOTDアプリケーションをブラウザーでソースコードを参照すると 下記画像の赤枠のDarmode widgetのスクリプトを読み込む際に **src**と書くべきところを**ssrc**とタイプミスしたのが原因のようです。
+1. QOTDアプリケーションをブラウザーでソースコードを参照すると 下記画像の赤枠のDarmode widgetのスクリプトを読み込む際に**src**と書くべきところを**ssrc**とタイプミスしたのが原因のようです。 
 ![image](images/website-011.png)
 1. なお、ブラウザから呼び出している Backendサービスがある場合には、以下のように **バックエンド・トレースの表示**のボタンがあります。ここでは一番上のページ・ロードをクリックします。
 ![image](images/website-012.png)
@@ -51,6 +49,6 @@ QOTDアプリケーションをブラウザーでソースコードを参照す�
 ![image](images/website-0121.png)
 
 ---
-ここまでで、**Web サイトおよびモバイル・アプリケーション**のハンズオンは終了です。最後は、[Events](Events.md)を見ていきましょう。
+ここまでで、**Web サイトおよびモバイル・アプリケーション**のハンズオンは終了です。最後は、[イベント](Events.md)を見ていきましょう。
 
 

@@ -24,33 +24,32 @@ Instana を開くと、以下のような画面が表示されます。
 
 1. **tokyo** ゾーンは、OpenShift(Kubernetes)環境のノードです。クリックすると、そのノードで検知されているテクノロジーのスタックが表示されます。  
 左にはそのノードの詳細が表示されます。この画面ではホスト名に加えてOSがLinuxであること、そしてそのホストのCPU、メモリなど確認することができます。
-![image](images/infra-004.png)
+  ![image](images/infra-004.png)
 1. ノード情報の下の方には、そのノードで稼働する各種サービスのスタックが表示されています。それそれリンクになっていますので、検知されたサービスのダッシュボードへと飛ぶことも可能です。
-![image](images/infra-005.png)
+  ![image](images/infra-005.png)
 1. ノード情報の上の方にある 緑色の **ダッシュボードを開く** の画面を開きます。ノードのリソースの詳細情報が確認できます。  
 CPUやメモリの利用量から、Open Files数、File Systemの情報、ネットワークのアクティビティなど、基盤的な情報を確認することができます。メトリックは１秒単位の高精細なデータで、スパイクを見逃しません。
-![image](images/infra-006.png)
+  ![image](images/infra-006.png)
 1. 上の **スタック**タブをクリックすると、このノードで稼働している アプリケーションやインフラストラクチャーのスタックの情報が確認できます。
-![image](images/infra-007.png)
+  ![image](images/infra-007.png)
 
 ---
 ## プラットフォーム
 1. つぎにアプリケーションが稼働するプラットフォームを見ていきましょう。KubernetesやCloudFoundry、この環境には表示されていませんが vSphereや PowerVM の情報も見ていくことが可能です。
-![image](images/platform-001.png)
+  ![image](images/platform-001.png)
 1. ひとつ定義されている openshift (cluster) が確認できます。右端のHealthはグリーンで大きな問題はないようですね。  
 openshift (cluster) のリンクをクリックして、見ていきましょう。
-![image](images/platform-002.png)
-
+  ![image](images/platform-002.png)
 1. 各クラスター全体のダッシュボードが開きます。  
 CPUやメモリーなどのリソース状況、利用状況上位のノードや名前空間のリストがあります。
-![image](images/platform-003.png)
+  ![image](images/platform-003.png)
 1. 先程と同様、メニューの **スタック**をクリックすると、このクラスターに関係する アプリケーションやInfrastructure の情報がリストされて表示されます。
-![image](images/platform-004.png)
+  ![image](images/platform-004.png)
 1. Kubernetesの各種リソースがタブとして整理されていますので、確認してみてください。  
 とくに Pod のタブでは、リソースの CPU制限/CPU要求(Requests/Limits)の値をグラフィカルに表示することもできますので、どの名前空間のPodがリソースを消費する設定となっているかなど確認することができます。
-![image](images/platform-005.png)
+  ![image](images/platform-005.png)
 1. 気になる Podがあれば、その Podの情報をクリックすることで、Podのダッシュボードに移動し、実際のリソース利用状況などを確認できます。
-![image](images/platform-006.png)
+  ![image](images/platform-006.png)
 
 ---
 【参考】  
