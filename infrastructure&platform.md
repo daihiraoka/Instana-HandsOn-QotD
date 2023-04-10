@@ -1,9 +1,9 @@
 ## ダッシュボード
 Instana を開くと、以下のような画面が表示されます。  
-![image](images/instana-dashbord-001.png)
+  ![image](images/instana-dashbord-001.png)
   
 左のメニューにあるように Instanaでは、インフラストラクチャー から、プラットフォーム、アプリケーション さらには Web サイトおよびモバイル・アプリケーション (エンドユーザー・モニタリング）まで多様な環境を見ていくことが可能です。
-![image](images/instana-dashbord-002.png)
+  ![image](images/instana-dashbord-002.png)
 
 それでは、この環境で IBM Instana Observability を、順に見ていきましょう。  
 まず 取得した各種メトリックが統合されている Infrastructure & Platform の足回りから見ていきます。  
