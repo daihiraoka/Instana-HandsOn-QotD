@@ -14,7 +14,7 @@ Instana では、ブラウザやモバイル・アプリケーションなど、
 WebSitesモニタリングでは、各ブラウザに埋め込まれたエージェントから、直接Instanaのインスタンスにパフォーマンス状況が送信されてます。  
 [注] このサンドボックスでは、Instanaの機能をお見せするために個別ユーザーを特定できる情報まで送信していますが、デフォルトでは 個人を特定できる情報は送信されません。UserAPIを使用するよう管理者の構成が必要となります。  
 WebSitesモニタリングで送信される情報については、[こちら](https://www.ibm.com/docs/en/instana-observability/current?topic=websites-website-monitoring-faq#sensitive-data)をご確認ください。
-1. RoboShop のサイトのパフォーマンスのオーバービューが表示されます。ページビュー数やJavaScriptのエラー、ページのロード時間などが表示されています。
+1. QOTDアプリ のサイトのパフォーマンスのオーバービューが表示されます。ページビュー数やJavaScriptのエラー、ページのロード時間などが表示されています。
 ![image](images/website-003.png)
 1. **速度**のタブには、Webサイトの応答性能の詳細情報が表示されています。
 ![image](images/website-004.png)
